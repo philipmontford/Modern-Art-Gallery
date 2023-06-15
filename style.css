@@ -13,7 +13,7 @@
     --almost-black: #151515;
     --dark-gray: #444444;
     --gold: #d5966c;
-}
+ }
 
 body {
     overflow-x: hidden;
@@ -104,11 +104,21 @@ p {
     margin-bottom: 50px;
 }
 
-.gallery-text span {
+ .gallery-text span {
     display: flex;
+} 
+
+
+.gallery-hero-img{
+    background-image: url(images/desktop/image-hero@2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
 }
 
 .btn {
+    
     font-family: 'Big Shoulders Display', cursive;
     background: var(--almost-black);
     color: var(--white);
@@ -119,6 +129,7 @@ p {
     border: none;
     outline: none;
     cursor: pointer;
+    
 }
 
 .btn:hover {
@@ -129,6 +140,8 @@ p {
 .btn:active {
     background: var(--gold);
 }
+
+
 
 .gallery-text .arrow {
     background-color: var(--gold);
@@ -173,6 +186,13 @@ p {
     font-size: 18px;
 }
 
+.gallery-intro-image { 
+    background-image: url("images/desktop/image-grid-1@2x.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .gallery-image-items {
     width: 100%;
     display: grid;
@@ -183,8 +203,17 @@ p {
     margin-bottom: 50px;
 }
 
+.first-item{
+    background-image: url(images/desktop/image-grid-2@2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
 .second-item-img{
     margin-bottom: 20px;
+    
 }
 
 .second-item-text {
@@ -342,6 +371,15 @@ footer h3 {
         display: none;
     }
 
+    .gallery-hero-img{
+        background-image: url(images/mobile/image-hero.jpg);
+       width: 100%;
+       height: 80vh;
+
+    }
+
+
+
     .hide {
         display: block;
         margin-top: 25px;
@@ -386,8 +424,10 @@ footer h3 {
     }
 
     .gallery-intro-image {
-        padding-left: 10px;
-        padding-right: 10px;
+        background-image: url(images/mobile/image-grid-1.jpg) ;
+        padding-left: 400px;
+        padding-right: 40px;
+        height: 80vh;
     }
 
     .gallery-image-items {
