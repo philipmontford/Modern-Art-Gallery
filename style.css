@@ -378,18 +378,29 @@ svg path:hover{
 }
 
 .location-footer-socials {
+  position: relative;
   float: left;
-  display: block;
-  margin-left: 0rem;
+  display: flex;
+  margin-top: -15px;
+  margin-left: 30px;
   cursor: pointer;
-  margin-right: 20rem;
+  padding: 1.4rem 0.8rem;
+  /* background-color: var(--almost-black); */
 }
 
-.location-footer-socials :hover,
-.location-footer-socials :active {
-  background: var(--white);
+.location-footer-socials svg {
+    
+  margin: 25px 0 0 25px ;
+  display: flex;
+  margin-top: 20px;
+  background-color: var(--gold);
 }
-
+svg path:hover{
+  fill: var(--white);
+  transition: background 500ms ease;
+  cursor: pointer;
+  
+}
 /* generic mobile media query */
 
 @media (max-width: 600px) {
