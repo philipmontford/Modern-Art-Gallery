@@ -124,7 +124,7 @@ a {
   background-color: var(--gold);
   float: right;
   position: absolute;
-  
+
 
 }
 
@@ -283,8 +283,10 @@ footer h3 {
     background-color: var(--almost-black);
 }
 
-.footer-socials svg:hover{
-  background-color: var(--gold);
+svg path:hover{
+  fill: var(--gold);
+  transition: background 500ms ease;
+  cursor: pointer;
   
 }
 
