@@ -114,27 +114,31 @@ a {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 4px;
+  transition: 500ms ease;
   border: none;
   outline: none;
   cursor: pointer;
 }
 
-.btn:hover,
-.btn:active {
-  background: var(--gold);
-  color: var(--white);
+.btn:hover {
+  background-color: var(--gold);
+  float: right;
+  position: absolute;
+  
+
 }
 
-.gallery-text .arrow {
+.btn svg{
+  color: var(--almost-black);
+}
+
+.btn svg:hover{
   background-color: var(--gold);
-  padding: 8px 12px;
+  padding: 15px 25px;
   cursor: pointer;
 }
 
-.gallery-text .arrow:hover,
-.gallery-text .arrow:active {
-  background: var(--almost-black);
-}
+
 
 /* gallery items style rules */
 
@@ -263,12 +267,11 @@ footer h3 {
   position: relative;
   float: left;
   display: flex;
-  
-  margin-top: -25px;
-  margin-left: 15px;
+  margin-top: -15px;
+  margin-left: 30px;
   cursor: pointer;
   padding: 1.4rem 0.8rem;
-  background-color: var(--almost-black);
+ 
  
 }
 
@@ -276,13 +279,13 @@ footer h3 {
     
     margin: 25px 0 0 25px ;
     display: flex;
-    margin-top: 60px;
-    
+    margin-top: 20px;
+    background-color: var(--almost-black);
 }
 
 .footer-socials svg:hover{
   background-color: var(--gold);
- 
+  
 }
 
 /* location map style rules */
