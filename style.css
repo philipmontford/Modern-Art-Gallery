@@ -109,8 +109,10 @@ a {
 .btn {
   font-family: "Big Shoulders Display", cursive;
   background: var(--almost-black);
+  position: absolute;
+  display: inline-block;
   color: var(--white);
-  padding: 12px 18px;
+  padding: 16px 30px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -118,23 +120,29 @@ a {
   border: none;
   outline: none;
   cursor: pointer;
+  top: 31.75%;
+  bottom: 61%;
 }
 
 .btn:hover {
   background-color: var(--gold);
-  float: right;
-  position: absolute;
+  
 
-
-}
+}  
 
 .btn svg{
-  color: var(--almost-black);
+  position: absolute;
+  display: flex;
+  background-color: var(--gold);
+  width: 56px;
+  height: 70px;
+  left: 100%;
+  top: 0.8px;
+  bottom: 31.25%;
 }
 
 .btn svg:hover{
-  background-color: var(--gold);
-  padding: 15px 25px;
+  background-color: var(--almost-black);
   cursor: pointer;
 }
 
