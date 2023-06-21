@@ -140,19 +140,17 @@ a {
   top: 0.8px;
   bottom: 31.25%;
   padding:  20px 20px;
+  /* background: var(--almost-black); */
 }
 
 .btn svg:hover{
-  background-color: var(--almost-black);
+  background-color: var(--gold);
   cursor: pointer;
+  background: var(--almost-black);
+  transition: background 500ms ease;
 }
 
-/* svg path:hover{
-  fill: var(--gold);
-  transition: background 500ms ease;
-  cursor: pointer;
-  
-} */
+
 
 /* gallery items style rules */
 
@@ -320,18 +318,46 @@ svg path:hover{
   display: flex;
 }
 
-.location-map .arrow {
+.location-btn {
   background-color: var(--gold);
   padding: 8px 12px;
   cursor: pointer;
+  font-family: "Big Shoulders Display", cursive;
+  background: var(--almost-black);
+  position: absolute;
+  display: inline-block;
+  color: var(--white);
+  padding: 16px 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  transition: 500ms ease;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  
 }
 
-.location-map .arrow:hover {
-  background: var(--almost-black);
+.location-btn:hover {
+  background-color: var(--gold);
 }
 
-.location-map .arrow:active {
+.location-btn svg{
+  position: absolute;
+  display: flex;
+  background-color: var(--gold);
+  width: 56px;
+  height: 50px;
+  right: 100%;
+  top: -1.8px;
+  padding:  10px 20px;
+}
+
+.location-btn svg:hover{ 
+  background-color: var(--gold);
+  cursor: pointer;
   background: var(--almost-black);
+  transition: background 500ms ease;
 }
 
 /* location address style rules */
