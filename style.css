@@ -139,6 +139,7 @@ a {
   left: 100%;
   top: 0.8px;
   bottom: 31.25%;
+  padding:  20px 20px;
 }
 
 .btn svg:hover{
