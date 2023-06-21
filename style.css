@@ -64,13 +64,13 @@ a {
 }
 
 .gallery-header h1 {
-  width: 350px;
-  position: absolute;
+  width: 550px;
+  position: relative;
   top: 25%;
-  left: 48%;
+  left: 55.9%;
   line-height: 0.95;
   color: var(--white);
-  font-size: 79px;
+  font-size: 90px;
   text-transform: uppercase;
   mix-blend-mode: difference;
 }
@@ -138,7 +138,12 @@ a {
   cursor: pointer;
 }
 
-
+/* svg path:hover{
+  fill: var(--gold);
+  transition: background 500ms ease;
+  cursor: pointer;
+  
+} */
 
 /* gallery items style rules */
 
@@ -385,7 +390,7 @@ svg path:hover{
   margin-left: 30px;
   cursor: pointer;
   padding: 1.4rem 0.8rem;
-  /* background-color: var(--almost-black); */
+  
 }
 
 .location-footer-socials svg {
