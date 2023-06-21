@@ -67,7 +67,7 @@ a {
   width: 550px;
   position: relative;
   top: 25%;
-  left: 55.9%;
+  left: 38.1%;
   line-height: 0.95;
   color: var(--white);
   font-size: 90px;
@@ -110,7 +110,7 @@ a {
   font-family: "Big Shoulders Display", cursive;
   background: var(--almost-black);
   position: absolute;
-  display: inline-block;
+  display: block;
   color: var(--white);
   padding: 16px 30px;
   font-weight: 700;
@@ -122,6 +122,10 @@ a {
   cursor: pointer;
   top: 31.75%;
   bottom: 61%;
+  width: 190px;
+  height: 53.8px;
+  margin-bottom: 20%;
+  margin-top: 2%;
 }
 
 .btn:hover {
@@ -132,15 +136,15 @@ a {
 
 .btn svg{
   position: absolute;
-  display: flex;
+  display: block;
   background-color: var(--gold);
   width: 56px;
-  height: 70px;
+  height: 53.9px;
   left: 100%;
-  top: 0.8px;
+  top: 0.1px;
   bottom: 31.25%;
-  padding:  20px 20px;
-  /* background: var(--almost-black); */
+  padding:  10px 20px;
+  
 }
 
 .btn svg:hover{
@@ -295,11 +299,10 @@ footer h3 {
     background-color: var(--almost-black);
 }
 
-svg path:hover{
+.footer-socials svg path:hover{
   fill: var(--gold);
   transition: background 500ms ease;
   cursor: pointer;
-  
 }
 
 /* location map style rules */
@@ -483,6 +486,12 @@ svg path:hover{
     font-size: 14px;
     margin-bottom: 30px;
     padding-right: 30px;
+  }
+
+  .btn{
+    position: relative;
+    margin-top: -10%;
+
   }
 
   .gallery-intro {
